@@ -1,6 +1,6 @@
 const Banner = () => {
     return (
-        <div className="mt-8 h-[600px] rounded-3xl flex flex-col items-center justify-center bg-hero-bg bg-no-repeat bg-cover">
+        <div className="mt-8 md:h-[600px] rounded-3xl flex flex-col items-center justify-center bg-hero-bg bg-no-repeat bg-cover">
             {/* Title */}
             <div className="md:w-[900px] text-white text-center space-y-5">
                 <h2 className="text-5xl font-bold">Discover an exceptional cooking <br /> class tailored for you!</h2>

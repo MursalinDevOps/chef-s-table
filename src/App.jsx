@@ -10,7 +10,7 @@ function App() {
   // useState hooks
   const [recipeQueue, setRecipeQueue] = useState([]);
   const [prepareRecipe, setPrepareRecipe] = useState([]);
-  const [totalTime,setTotalTime] = useState(0);
+  const [totalTime, setTotalTime] = useState(0);
   const [totalCalories, setTotalCalories] = useState(0);
 
 
@@ -22,7 +22,7 @@ function App() {
       alert('This recipe already exists in the queue!')
     }
 
-    
+
   }
   const handleRemove = (id) => {
     const deletedRecipe = recipeQueue.find(recipe => recipe.recipe_id === id)
@@ -31,7 +31,7 @@ function App() {
     setRecipeQueue(updatedQueue)
     setPrepareRecipe([...prepareRecipe, deletedRecipe])
   }
-  const calculations = (time, calories) =>{
+  const calculations = (time, calories) => {
     setTotalTime(totalTime + time);
     setTotalCalories(totalCalories + calories)
   }
@@ -43,13 +43,13 @@ function App() {
       <OurRecipes></OurRecipes>
       <div className='md:flex justify-between'>
         <Cards handleRecipe={handleRecipe}></Cards>
-        <Sidebar 
-        prepareRecipe={prepareRecipe} 
-        handleRemove={handleRemove} 
-        recipeQueue={recipeQueue}
-        calculations={calculations}
-        totalTime={totalTime}
-        totalCalories={totalCalories}
+        <Sidebar
+          prepareRecipe={prepareRecipe}
+          handleRemove={handleRemove}
+          recipeQueue={recipeQueue}
+          calculations={calculations}
+          totalTime={totalTime}
+          totalCalories={totalCalories}
         ></Sidebar>
       </div>
     </>
