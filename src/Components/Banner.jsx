@@ -1,9 +1,9 @@
 const Banner = () => {
     return (
-        <div className="h-[600px] rounded-3xl flex flex-col items-center justify-center bg-hero-bg bg-no-repeat bg-cover">
+        <div className="mt-8 h-[600px] rounded-3xl flex flex-col items-center justify-center bg-hero-bg bg-no-repeat bg-cover">
             {/* Title */}
             <div className="w-[900px] text-white text-center space-y-5">
-                <h2 className="text-4xl font-bold">Discover an exceptional cooking <br /> class tailored for you!</h2>
+                <h2 className="text-5xl font-bold">Discover an exceptional cooking <br /> class tailored for you!</h2>
                 {/* Subtitle */}
                 <p className="text-lg">Learn and Master Basic Programming, Data Structures, Algorithm, OOP, Database and solve 500+ coding problems to become an exceptionally well world-class Programmer.</p>
                 {/* Buttons */}
