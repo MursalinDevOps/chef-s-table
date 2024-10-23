@@ -13,8 +13,8 @@
           "1 tsp dried thyme",
           "Salt and pepper to taste"
         ],
-        "preparing_time": "25 min",
-        "calories": "280 calories"
+        "preparing_time": 25,
+        "calories": 280
       },
       {
         "recipe_image": "https://img.freepik.com/free-photo/top-view-cooked-italian-pasta-with-lemon-slices-inside-blue-plate-with-oil-vegetables_140725-29752.jpg?uid=R154831157&ga=GA1.1.829249007.1729667227&semt=ais_hybrid",
@@ -29,8 +29,8 @@
           "1 garlic clove",
           "Black pepper to taste"
         ],
-        "preparing_time": "20 min",
-        "calories": "400 calories"
+        "preparing_time": 20,
+        "calories": 400
       },
       {
         "recipe_image": "https://img.freepik.com/free-photo/chicken-stir-fried-chili-along-with-bell-pepper-tomatoes-carrots_1150-27210.jpg?uid=R154831157&ga=GA1.1.829249007.1729667227&semt=ais_hybrid",
@@ -45,8 +45,8 @@
           "1 tbsp sesame oil",
           "2 cloves garlic"
         ],
-        "preparing_time": "15 min",
-        "calories": "180 calories"
+        "preparing_time": 15,
+        "calories": 180
       },
       {
         "recipe_image": "https://img.freepik.com/free-photo/mexican-tacos-with-beef-tomato-sauce-salsa_2829-14194.jpg?uid=R154831157&ga=GA1.1.829249007.1729667227&semt=ais_hybrid",
@@ -61,8 +61,8 @@
           "100 g salsa",
           "1 tsp taco seasoning"
         ],
-        "preparing_time": "30 min",
-        "calories": "350 calories"
+        "preparing_time": 30,
+        "calories": 350
       },
       {
         "recipe_image": "https://img.freepik.com/free-photo/pasta-with-meat-pan-with-onion-garlic-carrots-fork-knife_176474-6919.jpg?uid=R154831157&ga=GA1.1.829249007.1729667227&semt=ais_hybrid",
@@ -77,8 +77,8 @@
           "50 g grated Parmesan",
           "1 tbsp butter"
         ],
-        "preparing_time": "40 min",
-        "calories": "450 calories"
+        "preparing_time": 40,
+        "calories": 450
       },
       {
         "recipe_image": "https://img.freepik.com/free-photo/ai-generated-image-banana_23-2150683142.jpg?uid=R154831157&ga=GA1.1.829249007.1729667227&semt=ais_hybrid",
@@ -92,8 +92,8 @@
           "100 ml milk",
           "Ice cubes"
         ],
-        "preparing_time": "5 min",
-        "calories": "150 calories"
+        "preparing_time": 5,
+        "calories": 150
       }
     ]
   }

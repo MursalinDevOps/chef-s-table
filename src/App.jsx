@@ -7,9 +7,11 @@ import OurRecipes from './Components/OurRecipes'
 import Sidebar from './Components/Sidebar/Sidebar'
 
 function App() {
+  // useState hooks
   const [recipeQueue, setRecipeQueue] = useState([]);
   const [prepareRecipe, setPrepareRecipe] = useState([]);
-
+  const [totalTime,setTotalTime] = useState(0);
+  const [totalCalories, setTotalCalories] = useState(0);
 
 
   const handleRecipe = (recipe) => {
@@ -29,6 +31,11 @@ function App() {
     setRecipeQueue(updatedQueue)
     setPrepareRecipe([...prepareRecipe, deletedRecipe])
   }
+  const calculations = (time, calories) =>{
+    setTotalTime(totalTime + time);
+    setTotalCalories(totalCalories + calories)
+  }
+
   return (
     <>
       <Navbar></Navbar>
@@ -36,7 +43,14 @@ function App() {
       <OurRecipes></OurRecipes>
       <div className='md:flex justify-between'>
         <Cards handleRecipe={handleRecipe}></Cards>
-        <Sidebar prepareRecipe={prepareRecipe} handleRemove={handleRemove} recipeQueue={recipeQueue}></Sidebar>
+        <Sidebar 
+        prepareRecipe={prepareRecipe} 
+        handleRemove={handleRemove} 
+        recipeQueue={recipeQueue}
+        calculations={calculations}
+        totalTime={totalTime}
+        totalCalories={totalCalories}
+        ></Sidebar>
       </div>
     </>
   )
