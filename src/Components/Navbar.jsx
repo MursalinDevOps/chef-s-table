@@ -1,7 +1,7 @@
 
 export default function Navbar() {
     return (
-        <nav className='flex flex-col md:flex-row justify-around items-center gap-4 md:gap-0 my-3'>
+        <nav className='flex flex-col md:flex-row justify-between items-center gap-4 md:gap-0 my-3'>
             {/* Logo */}
             <div>
                 <h3 className="text-lg font-bold">The Chefs Table</h3>

@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {},
+    backgroundImage: {
+      'hero-bg': "url('./image.png')",
+    },
   },
   plugins: [require('daisyui')],
 }
