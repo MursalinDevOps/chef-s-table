@@ -1,10 +1,9 @@
-export default function Card({ recipe }) {
-    console.log(recipe)
+export default function Card({ recipe, handleRecipe }) {
     const {recipe_image, recipe_name, short_description, calories, preparing_time} = recipe;
 
     return (
         <div>
-            <div className="card bg-base-100 w-96 shadow-2xl">
+            <div className="card bg-base-100 shadow-2xl">
                 <figure>
                     <img
                     className="p-4 rounded-3xl"
@@ -40,7 +39,9 @@ export default function Card({ recipe }) {
 
 
                     <div className=" mt-3 flex justify-center">
-                        <button className="btn bg-[#0BE58A] rounded-3xl">Want to Cook ?</button>
+                        <button 
+                        onClick={()=>handleRecipe(recipe)}
+                        className="btn bg-[#0BE58A] rounded-3xl">Want to Cook ?</button>
                     </div>
                 </div>
             </div>
