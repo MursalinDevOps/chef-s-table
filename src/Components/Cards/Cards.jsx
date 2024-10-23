@@ -12,8 +12,8 @@ export default function Cards() {
     },[])
 
   return (
-    <div className="md:w-2/3 mt-8">
-       <div className="grid grid-cols-2 gap-5">       
+    <div className="md:w-2/3 my-8">
+       <div className="grid items-center grid-cols-1 md:grid-cols-2 gap-5">       
         {
             recipes.map(recipe => <Card key={recipe.recipe_id} recipe={recipe}></Card>)
         }

@@ -12,7 +12,7 @@ function App() {
      <Navbar></Navbar>
      <Banner></Banner>
      <OurRecipes></OurRecipes>
-     <div className='flex justify-between'>
+     <div className='md:flex justify-between'>
       <Cards></Cards>
       <Sidebar></Sidebar>
      </div>

@@ -1,7 +1,7 @@
 {
     "recipes": [
       {
-        "recipe_image": "https://www.simplyrecipes.com/thmb/rzHHpRvD7B02TVAr4x5gShxBW8I=/2667x2000/smart/filters:no_upscale()/Simply-Recipes-Grilled-Chicken-LEAD-6-923bafca1cc54beaa493d5a7aab39034.jpg",
+        "recipe_image": "https://img.freepik.com/free-photo/grilled-chicken-near-fork-boiled-potatoes_23-2147717072.jpg?t=st=1729667273~exp=1729670873~hmac=a327afc774ca244439a93173738f5a39a281b409bfe8166cc682992934bc56d6&w=1380",
         "recipe_id": "101",
         "recipe_name": "Grilled Lemon Chicken",
         "short_description": "A simple and flavorful grilled chicken with lemon zest and herbs.",
@@ -17,7 +17,7 @@
         "calories": "280 calories"
       },
       {
-        "recipe_image": "https://www.recipetineats.com/wp-content/uploads/2020/11/Spaghetti-Carbonara_6.jpg",
+        "recipe_image": "https://img.freepik.com/free-photo/top-view-cooked-italian-pasta-with-lemon-slices-inside-blue-plate-with-oil-vegetables_140725-29752.jpg?uid=R154831157&ga=GA1.1.829249007.1729667227&semt=ais_hybrid",
         "recipe_id": "102",
         "recipe_name": "Spaghetti Carbonara",
         "short_description": "Classic Italian pasta with eggs, cheese, pancetta, and pepper.",
@@ -33,7 +33,7 @@
         "calories": "400 calories"
       },
       {
-        "recipe_image": "https://www.acouplecooks.com/wp-content/uploads/2021/02/Veggie-Stir-Fry-011.jpg",
+        "recipe_image": "https://img.freepik.com/free-photo/chicken-stir-fried-chili-along-with-bell-pepper-tomatoes-carrots_1150-27210.jpg?uid=R154831157&ga=GA1.1.829249007.1729667227&semt=ais_hybrid",
         "recipe_id": "103",
         "recipe_name": "Vegetable Stir-Fry",
         "short_description": "A quick and healthy vegetable stir-fry with soy sauce and garlic.",
@@ -49,7 +49,7 @@
         "calories": "180 calories"
       },
       {
-        "recipe_image": "https://www.simplyrecipes.com/thmb/XVTxTYmuHmBdFKB99WENXONjYw4=/2000x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Tacos-LEAD-3-14ebc68fb33a493fbb6b9fca1b693b83.jpg",
+        "recipe_image": "https://img.freepik.com/free-photo/mexican-tacos-with-beef-tomato-sauce-salsa_2829-14194.jpg?uid=R154831157&ga=GA1.1.829249007.1729667227&semt=ais_hybrid",
         "recipe_id": "104",
         "recipe_name": "Beef Tacos",
         "short_description": "Mexican-style beef tacos with lettuce, cheese, and salsa.",
@@ -65,7 +65,7 @@
         "calories": "350 calories"
       },
       {
-        "recipe_image": "https://www.recipetineats.com/wp-content/uploads/2021/08/Mushroom-Risotto_9.jpg",
+        "recipe_image": "https://img.freepik.com/free-photo/pasta-with-meat-pan-with-onion-garlic-carrots-fork-knife_176474-6919.jpg?uid=R154831157&ga=GA1.1.829249007.1729667227&semt=ais_hybrid",
         "recipe_id": "105",
         "recipe_name": "Mushroom Risotto",
         "short_description": "Creamy Italian-style risotto with mushrooms and Parmesan cheese.",
@@ -81,7 +81,7 @@
         "calories": "450 calories"
       },
       {
-        "recipe_image": "https://www.loveandlemons.com/wp-content/uploads/2022/01/banana-smoothie.jpg",
+        "recipe_image": "https://img.freepik.com/free-photo/ai-generated-image-banana_23-2150683142.jpg?uid=R154831157&ga=GA1.1.829249007.1729667227&semt=ais_hybrid",
         "recipe_id": "106",
         "recipe_name": "Banana Smoothie",
         "short_description": "A refreshing banana smoothie with yogurt and honey.",

@@ -1,27 +1,31 @@
 export default function Card({ recipe }) {
     console.log(recipe)
-    const { recipe_id, recipe_image, recipe_name, short_description, ingredinets, calories, preparing_time } = recipe;
+    const {recipe_image, recipe_name, short_description, calories, preparing_time} = recipe;
 
     return (
         <div>
-            <div className="card bg-base-100 w-96 shadow-xl">
-                {/* <figure>
+            <div className="card bg-base-100 w-96 shadow-2xl">
+                <figure>
                     <img
-                        src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                        alt="Shoes" />
-                </figure> */}
+                    className="p-4 rounded-3xl"
+                        src={recipe_image} />
+                </figure>
                 <div className="card-body">
                     <h2 className="card-title">
                         {recipe_name}
-                        <div className="badge badge-secondary">NEW</div>
                     </h2>
                     <p>{short_description}</p>
                     <hr />
-                    <h3 className="text-xl">
-                        Ingredients:
+                    <h3 className="text-lg">
+                        Ingredients:{recipe.ingredients.length}
                     </h3>
+                   <ul className="ml-8 text-gray-600">
+                   {
+                        recipe.ingredients.map((item, idx)=> <li className="list-disc" key={idx}>{item}</li>)
+                    }
+                   </ul>
                     <hr />
-                    {/*  */}
+                    {/* ICONS */}
                     <div className="flex">
                         <p className="flex gap-1"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
@@ -35,10 +39,9 @@ export default function Card({ recipe }) {
                     </div>
 
 
-                    {/* <div className="card-actions justify-end">
-                        <div className="badge badge-outline">Fashion</div>
-                        <div className="badge badge-outline">Products</div>
-                    </div> */}
+                    <div className=" mt-3 flex justify-center">
+                        <button className="btn bg-[#0BE58A] rounded-3xl">Want to Cook ?</button>
+                    </div>
                 </div>
             </div>
         </div>
